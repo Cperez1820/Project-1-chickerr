@@ -15,9 +15,13 @@ let currentTime = 20
 let timerId
 let wlTimerId 
 
+// first attempt chicken sprite :D save me lord
+// const chickenSprite = new Image();
+// chickenSprite.src = "Chicken.webp"
+
 
     function moveChicken(e){
-        squares[cIndex].classList.remove("chicken")
+        squares[cIndex].classList.remove("chicken",)
             switch(e.key){
                 case 'a':
                 // console.log("move left")  <--- helped in the begining to make sure it was working 
